@@ -1,0 +1,5 @@
+let tarefas = ["Do homework", "Review notes", "Prepare for the next class"]
+console.log("The first task is: " + tarefas[0] + ". While the last one is: " + tarefas[tarefas.length - 1])
+console.log(tarefas.length)
+tarefas.push("Do push-ups")
+console.log(tarefas.length)
